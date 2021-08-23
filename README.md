@@ -23,3 +23,11 @@ Samples of Student Work
 -----------------------
 None yet! 
 
+void setup(){
+ size(600,600);
+}
+void draw(){
+  ellipse(300,375,280,250);
+  line(400,375-62.5,500,320-62.5);
+  line(300,375,300+140,375);
+}
